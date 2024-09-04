@@ -1,0 +1,71 @@
+{
+  "form": {
+    "title": "sol-bin",
+    "exchange": "Eazybot binance",
+    "quoteCurrency": "USDT",
+    "baseCurrency": "SOL",
+    "botOption": "Cycle",
+    "status": "Active",
+    "usdtAssigned": 4000,
+    "assignedBalance": {
+      "total": 6044.1274,
+      "availableUSDT": 3931.39055094,
+      "availableSOL": 1.44840816
+    },
+    "autoCompounding": true,
+    "initialOrder": {
+      "amount": 135.6432,
+      "percentage": 3.35
+    },
+    "priceAfterXPercent": {
+      "percentage": 2
+    },
+    "pullback": {
+      "value": 0.5
+    },
+    "takeProfitAverage": {
+      "takeProfit": 3,
+      "profitRetracement": -0.5,
+      "exchangeFee": "0.2%",
+      "ssfFee": "0.3%",
+      "actualTakeProfit": 3.5
+    },
+    "takeProfitIndependent": {
+      "takeProfit": 2,
+      "profitRetracement": -0.5,
+      "exchangeFee": "0.2%",
+      "ssfFee": "0.3%",
+      "actualTakeProfit": 2.5
+    },
+    "covers": [
+      {
+        "coverPercentage": -2,
+        "buyXTime": 135.6432,
+        "pullback": 0.5,
+        "type": "Independent",
+        "keepProfitPercentage": 90
+      },
+      {
+        "coverPercentage": -2,
+        "buyXTime": 135.6432,
+        "pullback": 0.5,
+        "type": "Independent",
+        "keepProfitPercentage": 90
+      },
+      {
+        "coverPercentage": -2,
+        "buyXTime": 135.6432,
+        "pullback": 0.5,
+        "type": "Independent",
+        "keepProfitPercentage": 90
+      },
+      {
+        "coverPercentage": -2,
+        "buyXTime": 271.2864,
+        "pullback": 0.5,
+        "type": "Independent",
+        "keepProfitPercentage": 90
+      }
+    ]
+  }
+}
